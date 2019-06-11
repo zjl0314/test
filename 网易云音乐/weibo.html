@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<link rel="stylesheet" type="text/css" href="css/weibo.css" />
+
+	<body class="WB_UIbody WB_widgets">
+		<div class="WB_xline1 oauth_xline" id="outer">
+			<div class="oauth_wrap">
+				<div class="oauth_header clearfix">
+					<h1 class="WB_logo" title="微博">
+	   	    			<a href="http://weibo.com">微博</a>
+	   	    		</h1>
+					<p class="login_account">
+						<a href="#" class="special_login_link">二维码登录</a>
+						<span class="vline vline_login">|</span>
+						<a href="http://weibo.com/signup/signup.php?from=zw&appsrc=u6BYq&backurl=https%3A%2F%2Fapi.weibo.com%2F2%2Foauth2%2Fauthorize%3Fclient_id%3D301575942%26response_type%3Dcode%26display%3Ddefault%26redirect_uri%3Dhttp%253A%252F%252Fmusic.163.com%252Fback%252Fweibo%26from%3D%26with_cookie%3D" class="sign_up_link">注册</a>
+					</p>
+				</div>
+				<div class="WB_panel oauth_main">
+					<form action="/oauth2/authorize">
+						<div class="oauth_content">
+							<p class="oauth_main_info"> 授权
+								<a href="http://app.weibo.com/t/feed/u6BYq" class="app_name">网易云音乐</a>
+								访问你的微博帐号 ，并同时登录微博
+							</p>
+							<div class="oauth_login clearfix">
+								<div class="oauth_login_form">
+									<p class="oauth_login_01">
+										<label class="oauth_input_label">帐号：</label>
+										<input type="text" class="WB_iptxt oauth_form_input" id="userId" name="userId" placeholder="请用微博帐号登录" node-type="userid" autocomplete="off" tabindex="1" style="color: rgb(154, 154, 154);">
+									</p>
+									<p>
+										<label class="oauth_input_label">密码：</label>
+										<input type="password" class="WB_iptxt1 oauth_form_input" id="passwd"  placeholder="请输入密码" name="passwd" node-type="passwd" autocomplete="off" tabindex="2">
+									</p>
+								</div>
+							</div>
+                             <div class="oauth_login_box01 clearfix">
+                             	<div class="oauth_login_submit">
+                             		<p class="oauth_formbtn">
+                             			<a class="WB_btn_login formbtn_01"></a>
+                             			<a class="WB_btn_cancel"></a>
+                             		</p>
+                             	</div>
+                             </div>
+						</div>
+					</form>
+				</div>
+				<p class="oauth_tiptxt">提示：为保障帐号安全，请认准本页URL地址必须以 api.weibo.com 开头</p>
+			</div>
+		</div>
+	</body>
+	         <script src="js/jquery-2.1.0.js" type="text/javascript" charset="utf-8"></script>
+             <script src="js/wb.js" type="text/javascript" charset="utf-8"></script>
+</html>

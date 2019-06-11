@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="icon" href="img/QQ1.png" type="image/x-icon" />
+		<link rel="stylesheet" type="text/css" href="css/qq_style.css"/>
+	</head>
+	<body>
+		<div class="lay_top">
+			<div class="lay_top_inner">
+				<div class="logo"></div>
+				<div class="lat_top_other">
+					<span class="blank"></span>
+					<a href="http://connect.qq.com" target="_blank" title="什么是QQ登录">QQ登录</a>
+					<span class="line">|</span>
+					<a href="http://connect.qq.com/toc/auth_manager?from=auth" id="auth_manager_link" target="_blank" title="登录授权管理">授权管理</a>
+					<span class="line">|</span>
+					<a href="http://connect.qq.com/manage" target="_blank" title="申请接入">申请接入</a>
+				</div>
+			</div>
+		</div>
+		<div id="combine_page" style="width: 688px;">
+			<div class="page_login combine_page_children float_left border_right">
+				<div class="lay_login_form">
+					<div class="title" id="title_0">快速安全登录</div>
+					<div class="qlogin_tips" id="qlogin_tips_0">请使用<a class="link_tips" href="http://im.qq.com/mobileqq/#from=login" target="_blank">QQ手机版</a>扫描二维码，<br />安全登录，防止盗号。</div>
+					<div class="qlogin_show" id="qlogin_show">
+						<div class="qlogin_list" id="qlogin_list">
+							<span id="qr_area" class="qr_0">
+								<img id="qrlogin_img" class="qrImg" src="img/erweima.png">
+								<img src="img/sao.png" class="saoImg" style="display: none;"/>
+								<span class="qrlogin_img_out"></span>
+							</span>
+						</div>					
+					</div>
+					<div class="bottom hide" id="bottom_qlogin" style="display: block;">
+						<a class="link" hidefocus="true" id="switcher_plogin" href="javascript:void(0);" tabindex="8">帐号密码登录</a>
+						<span class="dotted" id="docs_dotted">|</span>
+						<a href="https://ssl.ptlogin2.qq.com/j_newreg_url" class="link" target="_blank">注册新帐号</a>
+						<span class="dotted">|</span>
+						<a class="link" id="feedback_qlogin" href="http://support.qq.com/write.shtml?fid=780&SSTAG=music.163.com.appid100495085" target="_blank">意见反馈</a>
+					</div>
+				</div>
+			</div>
+			<div class="page_accredit combine_page_children float_left">
+				<div class="lay_main" id="lay_main">
+					<div class="lay_accredit_con">
+						<p class="cnt_wording"></p>
+						<p class="app_site_wording">
+							<a class="accredit_site" id="accredit_site_link" href="http://music.163.com" target="_blank">网易云音乐</a>将获得以下权限：
+						</p>
+						<div class="accredit_info" id="accredit_info">
+							<ul class="accredit_info_op">
+								<li class="select_all_li">
+									<input type="checkbox" id="select_all" class="checkbox oauth_checkbox_all" hidefocus="true" checked="checked">
+									<label class="oauth_item_title" for="select_all">全选</label>
+								</li>
+								<li>
+									<input name="api_choose" hidefocus="true" type="checkbox" class="checkbox oauth_checkbox" id="item_80901010" value="80901010" title="默认授权 不可更改" checked disabled>
+									<label for="item_80901010" class="oauth_item_title">获得您的昵称、头像、性别</label>
+								</li>
+							</ul>
+						</div>
+						<div class="oauth_tips_div">
+							<p class="oauth_tips">
+								授权后表明你已同意<a href="http://connect.qq.com/agreement_chs" target="_blank" style="color: #51b7ec;">QQ登录服务协议</a>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script src="js/jquery-2.1.0.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		$(".qrImg").mouseenter(function(){
+			$(".saoImg").fadeToggle(300,function(){
+				
+			})
+		}).mouseleave(function(){
+			$(".saoImg").fadeToggle(300,function(){
+				
+			})
+		})
+	</script>
+</html>
