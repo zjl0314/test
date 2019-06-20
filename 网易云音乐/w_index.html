@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="swiper.min.css" />
+		<style type="text/css">
+			* {
+				padding: 0;
+				margin: 0;
+			}
+			
+			li {
+				list-style: none;
+			}
+			
+			a {
+				text-decoration: none;
+				color: #AAAAAA;
+			}
+			
+			body {
+				font-family: Arial, Helvetica, sans-serif;
+			}
+			
+			.swiper-container {
+				width: 100%;
+				height: 968px;
+			}
+			
+			.g-top {
+				position: fixed;
+				top: 0;
+				left: 0;
+				right: 0;
+				z-index: 100;
+				background: rgba(36, 36, 36, 0);
+				transition: background 1s ease-in;
+				margin: auto;
+				height: 60px;
+				background-color: #242424;
+				box-sizing: border-box;
+			}
+			
+			.m-top {
+				height: 60px;
+				width: 1200px;
+				margin: auto;
+				position: relative;
+				z-index: 8;
+				zoom: 1;
+				line-height: 60px;
+			}
+			
+			.m-top .logo {
+				float: left;
+				height: 100%;
+				width: 200px;
+			}
+			
+			.m-top .nav {
+				width: 600px;
+				height: 60px;
+				margin-left: 35px;
+			}
+			
+			.f-ff2 {
+				font-family: Microsoft Yahei, PingFang SC, hiragino sans gb, simsun, \\5B8B\4F53, Arial, Helvetica, sans-serif;
+				font-weight: 400;
+			}
+			
+			.f-fl {
+				float: left;
+			}
+			
+			.m-top .nav li {
+				float: left;
+				position: relative;
+				width: 88px;
+				margin-right: 62px;
+				line-height: 60px;
+				text-align: center;
+			}
+			
+			.m-top .login .entr,
+			.m-top .user .entr {
+				width: 81px;
+				height: 23px;
+				line-height: 23px;
+				margin-top: 5px;
+				margin-right: 20px;
+				text-align: center;
+				text-decoration: none;
+				color: #ea524e;
+				border: 1px solid #8e413e;
+				font-size: 12px;
+				font-family: Arial, Helvetica, sans-serif;
+			}
+			
+			.f-fl {
+				float: left;
+			}
+			
+			.m-top .login,
+			.m-top .user {
+				padding-top: 14px;
+				height: 32px;
+				line-height: 32px;
+			}
+			
+			.s-fc11 {
+				color: #aaa;
+			}
+			
+			.f-fr {
+				float: right;
+			}
+			
+			.m-top .login .lg {
+				margin-left: 7px;
+			}
+			
+			.s-fc12,
+			a.s-fc12:hover {
+				color: #fff;
+			}
+			
+			.swiper-pagination span {
+				background: #B90B0B!important;
+			}
+			
+			.f-ff2 li>a:hover {
+				color: #fff;
+			}
+			
+			.z-slt{
+				display: inline-block;
+				border-bottom: solid 3px #c62f2f;
+				width: 80px;
+				height: 57px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div id="g-footfix" class="m-home j-flag">
+			<div class="g-top j-flag">
+				<div class="m-top">
+					<a href="#" class="logo f-tid u-cicn u-cicn-1" title="网易云音乐" style="margin-top: 6px;"><img src="img2/wlogo.png" /></a>
+					<ul class="nav f-fl f-ff2">
+						<li style="">
+							<a href="#" class="z-slt" style="color: #FFF;">首页</a>
+						</li>
+						<li>
+							<a href="#" class="">石头计划</a>
+						</li>
+						<li>
+							<a href="#" data-action="login" data-href="/nmusician/web/my">个人中心</a>
+						</li>
+						<li>
+							<a href="#">常见问题</a>
+						</li>
+					</ul>
+					<div class="login f-fr s-fc11" style="font-size: 12px;">
+						<a href="javascript:;" data-action="login" data-href="/nmusician/web/retrieval" class="f-fl entr">加入音乐人</a>
+						您还未登录，请先
+						<a href="javascript:;" data-action="login" class="lg s-fc12 f-tdu" style="text-decoration: underline;">登录</a>
+					</div>
+				</div>
+			</div>
+			<div class="swiper-container">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide" style="background: url(img2/1.png);"></div>
+					<div class="swiper-slide" style="background: url(img2/2.png);"></div>
+					<div class="swiper-slide" style="background: url(img2/3.png);"></div>
+					<div class="swiper-slide" style="background: url(img2/4.png);"></div>
+					<div class="swiper-slide" style="background: url(img2/5.png);"></div>
+					<div class="swiper-slide" style="background: url(img2/6.png);"></div>
+					<div class="swiper-slide" style="background: url(img2/7.png);"></div>
+				</div>
+				<!-- 如果需要分页器 -->
+				<div class="swiper-pagination"></div>
+			</div>
+		</div>
+	</body>
+	<script src="swiper.min.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		var mySwiper = new Swiper('.swiper-container', {
+			direction: 'vertical', // 垂直切换选项
+			loop: true, // 循环模式选项
+			// 如果需要分页器
+			pagination: {
+				el: '.swiper-pagination',
+				clickable: true,
+			},
+			scrollbar: {
+		        el: '.swiper-scrollbar',
+		    },
+			mousewheel: true,
+		})
+	</script>
+
+</html>
