@@ -6,6 +6,8 @@ $.ajax({
 		/*nav_one*/
 		$.each(data[0].header[0], function(i, t) {
 			$(".nav_one_ul").append($("<li style='background:#000000;'><a href='#' style='color:#FFFFFF;'>" + t[0] + "</a></li>"));
+			var cor=$("<sub class='cor'>&nbsp;</sub>")
+			    cor.appendTo(".nav_one_ul>li")
 			for(var i = 1; i < t.length; i++) {
 				$(".nav_one_ul").append($("<li><a href='#'>" + t[i] + "</a></li>"));
 			}
@@ -16,9 +18,6 @@ $.ajax({
 			for(var i = 1; i < t.length; i++) {
 				$(".nav_two_ul").append($("<li><a href='#'>" + t[i] + "</a></li>"));
 			}
-//			$(".nav_two_ul>a:eq(2)").attr("href","index_s.html");
-//			$(".nav_two_ul>a:eq(4)").attr("href","singer.html");
-//			$(".nav_two_ul>a:eq(5)").attr("href","new_file.html");
 		})
 		/*banner*/
 		$.each(data[0].header[2], function(i, t) {

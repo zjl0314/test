@@ -38,9 +38,6 @@
 		}]
 	},{
 		"rm":[{
-			"url":"https://p1.music.126.net/t57DhLvsHGjCsJo46rgowQ==/109951164048587316.jpg?param=130y130",
-			"nam":"胜娚（王胜男）"
-		},{
 			"url":"https://p2.music.126.net/jq8QrogorsmwJv3Xn7_UOQ==/109951163765021940.jpg?param=130y130",
 			"nam":"薛之谦"
 		},{
@@ -67,12 +64,12 @@
 		},{
 			"url":"https://p2.music.126.net/Q92YwJrk2f2tsK-7B0VIhQ==/6628955605123612.jpg?param=130y130",
 			"nam":"陈粒"
+		},{
+			"url":"https://p2.music.126.net/RQ8pNp66CqAsieGtSaj_5g==/109951163398568078.jpg?param=130y130",
+			"nam":"李荣浩"
 		}]
 	},{
 		"all_nam":[{
-			"nam":"李荣浩",
-			"index":"1"
-		},{
 			"nam":"华晨宇",
 			"index":"1"
 		},{
@@ -110,6 +107,9 @@
 			"index":"1"
 		},{
 			"nam":"田馥甄",
+			"index":"1"
+		},{
+			"nam":"王胜娚",
 			"index":"1"
 		},{
 			"nam":"Coldplay",

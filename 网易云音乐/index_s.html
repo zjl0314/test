@@ -219,7 +219,7 @@
 	</body>
 	<script src="js/jquery-2.1.0.js" type="text/javascript" charset="utf-8"></script>
 	<script src="swiper.min.js" type="text/javascript" charset="utf-8"></script>
-	<script src="js/js1.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/js.js" type="text/javascript" charset="utf-8"></script>
 	<script type="text/javascript">
 		$.ajax({
 			type: "get",
@@ -239,19 +239,19 @@
 				$(".nav_two_ul_t>li>a:eq(4)").attr("href", "singer.html");
 				$(".nav_two_ul_t>li>a:eq(5)").attr("href", "new_file.html");
 				$(".nav_one_ul>li>a:eq(1)").click(function() {
-					alert("该项目由于开发者懒惰，并未开发～")
+					$(".nav_one_ul>li>a:eq(1)").attr("href","wdyy.html")
 				})
 				$(".nav_one_ul>li>a:eq(2)").click(function() {
-					alert("该项目由于开发者懒惰，并未开发～")
+					$(".nav_one_ul>li>a:eq(2)").attr("href","py.html")
 				})
 				$(".nav_one_ul>li>a:eq(3)").click(function() {
 					alert("该项目由于开发者懒惰，并未开发～")
 				})
 				$(".nav_one_ul>li>a:eq(4)").click(function() {
-					alert("该项目由于开发者懒惰，并未开发～")
+					$(".nav_one_ul>li>a:eq(4)").attr("href","w_index.html")
 				})
 				$(".nav_one_ul>li>a:eq(5)").click(function() {
-					alert("该项目由于开发者懒惰，并未开发～")
+					$(".nav_one_ul>li>a:eq(5)").attr("href","down.html")
 				})
 				$.each(data[0].m_cvrlst1, function(i, t) {
 					var li_img = $("<li class='li_img' title='" + t.txt + "'></li>");

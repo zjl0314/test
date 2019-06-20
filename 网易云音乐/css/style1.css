@@ -44,6 +44,7 @@ a {
 	float: right;
 	margin-right: 345px;
 	margin-top: -1px;
+	position: relative;
 }
 
 .nav_one_ul li {

@@ -565,3 +565,15 @@
 .m-playbar .icn-list:hover{
 	 background-position: -42px -98px;
 }
+.cor {
+	display: block;
+	position: absolute;
+	left: 35px;
+	top: 66px;
+	width: 12px;
+	height: 7px;
+	margin: 0 auto;
+	overflow: hidden;
+	background: url(../img/topbar.png) no-repeat;
+	background-position: -226px 0;
+}

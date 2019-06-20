@@ -1,214 +1,249 @@
 [{
 	"nav_two":["推荐","排行榜","歌单","主播电台","歌手","新碟上架"],
 	"m_cvrlst1":[{
-		"txt":"那些年我们一起听过的歌，你还记得吗？",
+		"txt":"「治愈华语」社交是输出，独处是充电",
 		"txt1":"by",
-		"txt2":"网易云音乐",
-		"url":"http://p2.music.126.net/N2f3QqUAuyvH_b6aK99CCg==/109951164111712678.jpg?param=140y140",
-		"nb":"9528"
+		"txt2":"情思天鹅",
+		"url":"http://p2.music.126.net/BC2KFWVKy60FTCTfUJ3osQ==/109951164127323230.jpg?param=140y140",
+		"nb":"66304",
+		"index":"1"
 	},{
-		"txt":"白日梦影像零售店°墨水心脏的情感流变",
+		"txt":"茜色日记•夏日漾开的爱恋",
 		"txt1":"by",
-		"txt2":"鹿北浠 ",
-		"url":"http://p2.music.126.net/5SUsWKZlUmcfZYPMwOkN-A==/109951163955716640.jpg?param=140y140",
-		"nb":"1804"
+		"txt2":"苏箫羽",
+		"url":"http://p2.music.126.net/6dSnTCCxcWueWWW8W_xs0w==/109951164138345896.jpg?param=140y140",
+		"nb":"5941",
+		"index":"1"
 	},{
-		"txt":"黄昏特辑°失重薄荷海滩",
+		"txt":"小众精选•如梦初醒的致秘音感",
 		"txt1":"by",
-		"txt2":"柩兔耳",
-		"url":"http://p2.music.126.net/O0BDlBXQKE_dgM9_IvO2Rg==/109951163977772467.jpg?param=140y140",
-		"nb":"557"
+		"txt2":"辰海行",
+		"url":"http://p2.music.126.net/FTi4JroGubgTkw5a9E9H2w==/109951163991084066.jpg?param=140y140",
+		"nb":"9184",
+		"index":"1"
 	},{
-		"txt":"用音乐风景在你心底种满浪花",
+		"txt":"一曲解忧丨感谢你曾陷我于无人之境",
 		"txt1":"by",
-		"txt2":"摇智",
-		"url":"http://p2.music.126.net/cpBLpKZicM_gYDjep5M0uQ==/109951164105180833.jpg?param=140y140",
-		"nb":"8541"
+		"txt2":"原创君",
+		"url":"http://p2.music.126.net/GjtTdHddjS2LxwVRFoNKjQ==/109951164144116197.jpg?param=140y140",
+		"nb":"44291",
+		"index":"2"
 	},{
-		"txt":"一秒飙泪 ：我只是泪腺发达啦",
+		"txt":"放空时间 ：今天不如做条咸鱼",
 		"txt1":"by",
 		"txt2":"蜜糖男孩",
-		"url":"http://p2.music.126.net/_5X-0TGimhHYHZ0xZIwu8w==/109951164073217511.jpg?param=140y140",
-		"nb":"6237"
+		"url":"http://p2.music.126.net/8pq4EYA6hjpmw_wzc_KOGg==/109951164145606457.jpg?param=140y140",
+		"nb":"21141",
+		"index":"1"
 	},{
-		"txt":"轻柔纯音：夏日午后的惬意时光",
+		"txt":"『古典』睡前小曲 晚安好梦",
 		"txt1":"by",
-		"txt2":"难道可爱也有错",
-		"url":"http://p2.music.126.net/ykFaiDJnOoiEQqQ0u7MZ3Q==/109951164095709523.jpg?param=140y140",
-		"nb":"15328"
+		"txt2":"普朗克的小猫",
+		"url":"http://p2.music.126.net/90uSkJ9QS0tfIbXqmUmsYg==/109951164110585471.jpg?param=140y140",
+		"nb":"6229",
+		"index":"1"
 	},{
-		"txt":"小张的音乐分享",
+		"txt":"2019年五月最热新歌TOP50",
+		"txt1":"by",
+		"txt2":"网易云音乐",
+		"url":"http://p2.music.126.net/TeGiFY_1Otp1WjOhzutXHw==/109951164114393156.jpg?param=140y140",
+		"nb":"1165万",
+		"index":"3"
+	},{
+		"txt":"酷锐女声 | 冉冉升起的独立女嗓",
+		"txt1":"by",
+		"txt2":"冰糖炖雪梨Er",
+		"url":"http://p2.music.126.net/R_R-v8Xjf0ZaA99OyhABvw==/109951164117727890.jpg?param=140y140",
+		"nb":"135万",
+		"index":"1"
+	},{
+		"txt":"小张的卧室音乐推荐",
 		"txt1":"by",
 		"txt2":"大黄阿鲁",
-		"url":"http://p2.music.126.net/ESfu_J7dUphZFLN92H0_aw==/109951163101290283.jpg?param=140y140",
-		"nb":"89万"
+		"url":"http://p2.music.126.net/uIb2UBNhF5WqF9IiryAEGg==/109951163464828604.jpg?param=140y140",
+		"nb":"130万",
+		"index":"0"
 	},{
 		"txt":"精选 | 网络热歌分享",
 		"txt1":"by",
 		"txt2":"情感文字君",
 		"url":"http://p2.music.126.net/zGzNJcfLZfLW7E0bkI0opg==/109951163815887214.jpg?param=140y140",
-		"nb":"13542万"
+		"nb":"14638万",
+		"index":"1"
 	},{
 		"txt":"国内各大酒吧热播单曲",
 		"txt1":"by",
 		"txt2":"丨御卿",
-		"url":"http://p2.music.126.net/uszTwEAWgbBR9GEW-rUmhg==/109951164077185346.jpg?param=140y140",
-		"nb":"412万"
-	},{
-		"txt":"纯音乐 解压 看书 刷题 睡觉 御用",
-		"txt1":"by",
-		"txt2":"包子很乖啊",
-		"url":"http://p2.music.126.net/9R7PD9p03LLxykyibHiKEw==/109951163804524121.jpg?param=140y140",
-		"nb":"878万"
-	},{
-		"txt":"绝版歌曲，劲爆电音，英文纯音，应有尽有！",
-		"txt1":"by",
-		"txt2":"另类小朋友",
-		"url":"http://p2.music.126.net/xjqAyPSeM0jvBfmPGeSkSA==/109951163683218694.jpg?param=140y140",
-		"nb":"1503万"
+		"url":"http://p2.music.126.net/EfoYYLHOJN5FN173KCu9dg==/109951164123489320.jpg?param=140y140",
+		"nb":"503万",
+		"index":"0"
 	},{
 		"txt":"小众英文歌歌单（！却意外的好听）",
 		"txt1":"by",
 		"txt2":"宝藏男孩咕咕 ",
 		"url":"http://p2.music.126.net/tFmmYLvvqHzilCAbUTVJwA==/109951163979372048.jpg?param=140y140",
-		"nb":"605万"
-	},{
-		"txt":"『1w+热评』欧美万评撩耳男声（单曲循环）",
-		"txt1":"by",
-		"txt2":"冷森Listen ",
-		"url":"http://p2.music.126.net/xLDdcvX4nVVHePy8qcvYVQ==/109951163994703160.jpg?param=140y140",
-		"nb":"2272万"
-	},{
-		"txt":"Anjunadeep 巴 黎 高 定 时 装 周!!!",
-		"txt1":"by",
-		"txt2":"Anjunadeep",
-		"url":"http://p2.music.126.net/5DOwAf0dpCOLQLXkBUmYoQ==/109951163819242649.jpg?param=140y140",
-		"nb":"233万"
+		"nb":"770万",
+		"index":"0"
 	},{
 		"txt":"夏季纯音|竹深树密虫鸣处，时有微凉不是风",
 		"txt1":"by",
 		"txt2":"不曾闻风起",
 		"url":"http://p2.music.126.net/rK-S6tg1WrJ-JaGxl8HQ-g==/109951164052424929.jpg?param=140y140",
-		"nb":"31万"
+		"nb":"46万",
+		"index":"0"
+	},{
+		"txt":"『1w+热评』欧美万评撩耳男声（单曲循环）",
+		"txt1":"by",
+		"txt2":"冷森Listen",
+		"url":"http://p2.music.126.net/xLDdcvX4nVVHePy8qcvYVQ==/109951163994703160.jpg?param=140y140",
+		"nb":"2374万",
+		"index":"1"
+	},{
+		"txt":"单曲循环过的那些音乐",
+		"txt1":"by",
+		"txt2":"以后一定要买只布偶",
+		"url":"http://p2.music.126.net/bhoiiJZnfRcV5wbJktEfjw==/109951164114802273.jpg?param=140y140",
+		"nb":"481万",
+		"index":"0"
 	},{
 		"txt":"纯音集丨无休止符的回忆 旋律写作纪念",
 		"txt1":"by",
 		"txt2":" -沏茶赏花- ",
 		"url":"http://p2.music.126.net/OXcAPO9ftwsJ9In5_26ztQ==/109951163885640715.jpg?param=140y140",
-		"nb":"72万"
+		"nb":"78万",
+		"index":"1"
 	},{
 		"txt":"給 喜 歡 的 人 聽 ♡",
 		"txt1":"by",
 		"txt2":"雪江南酱",
 		"url":"http://p2.music.126.net/lnSytX7iO5HsDmOJEY7dFw==/109951164055757132.jpg?param=140y140",
-		"nb":"111万"
+		"nb":"160万",
+		"index":"0"
 	},{
 		"txt":"精选｜Cover的那些循环歌曲",
 		"txt1":"by",
 		"txt2":"情感文字君",
 		"url":"http://p2.music.126.net/ydHYeTYOPMmMwp7ECVaX1g==/109951164038635515.jpg?param=140y140",
-		"nb":"1540万"
+		"nb":"1700万",
+		"index":"1"
 	},{
-		"txt":"小清新民谣的忧伤",
+		"txt":"单车·衣摆·夏凉风",
 		"txt1":"by",
-		"txt2":"一把石皮吉他",
-		"url":"http://p1.music.126.net/objKbPvol3V38TJ5qwbSZw==/109951164020954361.jpg?param=140y140",
-		"nb":"86万"
+		"txt2":"欢酹",
+		"url":"http://p2.music.126.net/1F2xCbLRIk-e_YDkEaGRFg==/109951164053384354.jpg?param=140y140",
+		"nb":"34万",
+		"index":"1"
+	},{
+		"txt":"刷作业必备歌（清新，醒脑，静心）",
+		"txt1":"by",
+		"txt2":"幼稚猿新生",
+		"url":"http://p2.music.126.net/Qcd0KLZGeVUcKEpSn6wAwA==/109951163845185378.jpg?param=140y140",
+		"nb":"69万",
+		"index":"0"
+	},{
+		"txt":"迷死人的前奏 百听不厌的前十秒",
+		"txt1":"by",
+		"txt2":"一把石皮吉他 ",
+		"url":"http://p2.music.126.net/objKbPvol3V38TJ5qwbSZw==/109951164020954361.jpg?param=140y140",
+		"nb":"125万",
+		"index":"0"
 	},{
 		"txt":"『学霸模式』只要学不死，就往死里学",
 		"txt1":"by",
 		"txt2":"樱桃味音乐",
-		"url":"http://p1.music.126.net/1v_Diy2ZRuwUqayM6DnuQA==/109951163956793571.jpg?param=140y140",
-		"nb":"878万"
+		"url":"http://p2.music.126.net/1v_Diy2ZRuwUqayM6DnuQA==/109951163956793571.jpg?param=140y140",
+		"nb":"104万",
+		"index":"1"
 	},{
 		"txt":"那些没实现的梦想，后来都谱成了民谣",
 		"txt1":"by",
-		"txt2":"鹤禅眠 ",
-		"url":"http://p1.music.126.net/kZQYCexDPko0d6Mk8wYx4Q==/109951164042839619.jpg?param=140y140",
-		"nb":"230万"
+		"txt2":"鹤禅眠",
+		"url":"http://p2.music.126.net/kZQYCexDPko0d6Mk8wYx4Q==/109951164042839619.jpg?param=140y140",
+		"nb":"247万",
+		"index":"1"
 	},{
 		"txt":"迷死人的前奏 百听不厌的前十秒",
 		"txt1":"by",
-		"txt2":"螚安Vivienne ",
-		"url":"http://p1.music.126.net/J5cNwXqif48O7UXlAGbrhw==/109951163809104945.jpg?param=140y140",
-		"nb":"616万"
+		"txt2":"螚安Vivienne",
+		"url":"http://p2.music.126.net/J5cNwXqif48O7UXlAGbrhw==/109951163809104945.jpg?param=140y140",
+		"nb":"638万",
+		"index":"1"
 	},{
 		"txt":"【节奏控】超带感特别推荐BGM 持更",
 		"txt1":"by",
 		"txt2":"南方安某人",
-		"url":"http://p1.music.126.net/XoEnosQt7V0rQV49_AbbOg==/109951163809052537.jpg?param=140y140",
-		"nb":"2021万"
+		"url":"http://p2.music.126.net/XoEnosQt7V0rQV49_AbbOg==/109951163809052537.jpg?param=140y140",
+		"nb":"2224万",
+		"index":"0"
 	},{
 		"txt":"听点不一样的·舔狗舔到最后一无所有",
 		"txt1":"by",
 		"txt2":"原创君",
-		"url":"http://p1.music.126.net/g7nZEFj0KMj1vNHEe4T8Cg==/109951164054039896.jpg?param=140y140",
-		"nb":"394万"
+		"url":"http://p2.music.126.net/g7nZEFj0KMj1vNHEe4T8Cg==/109951164054039896.jpg?param=140y140",
+		"nb":"435万",
+		"index":"2"
 	},{
 		"txt":"网易云评论最多的前100首电音(已排序)",
 		"txt1":"by",
 		"txt2":"黎明前de流星雨Walker丶",
-		"url":"http://p1.music.126.net/z4HO54hSiG2ZqXcpspIvVw==/109951163870289785.jpg?param=140y140",
-		"nb":"410万"
+		"url":"http://p2.music.126.net/KmgB_llhEDuftURITKhtSA==/109951164126402095.jpg?param=140y140",
+		"nb":"467万",
+		"index":"0"
 	},{
 		"txt":"转瞬即逝校园时光，定格在心底的微笑",
 		"txt1":"by",
-		"txt2":"情思天鹅 ",
-		"url":"http://p1.music.126.net/RPJi1epZp2Bidi7OVRUnIg==/109951163975643871.jpg?param=140y140",
-		"nb":"343万"
+		"txt2":"情思天鹅",
+		"url":"http://p2.music.126.net/RPJi1epZp2Bidi7OVRUnIg==/109951163975643871.jpg?param=140y140",
+		"nb":"362万",
+		"index":"1"
 	},{
 		"txt":"今天也想见到你 明天也是",
 		"txt1":"by",
 		"txt2":"原创君",
-		"url":"http://p1.music.126.net/MM-AtwgUl60-kKJZnbAIzw==/109951164017421130.jpg?param=140y140",
-		"nb":"410万"
-	},{
-		"txt":"小张的卧室音乐推荐（搬运",
-		"txt1":"by",
-		"txt2":"薄荷桃浦君",
-		"url":"http://p1.music.126.net/BQId6u801zowIVldZioreg==/109951163959769677.jpg?param=140y140",
-		"nb":"76万"
-	},{
-		"txt":"「春日云朵」第五百二十一次梦你",
-		"txt1":"by",
-		"txt2":"驴子鬼",
-		"url":"http://p1.music.126.net/DsG82xgpvF0Gwy3MTNp5IQ==/109951164031546927.jpg?param=140y140",
-		"nb":"94万"
+		"url":"http://p2.music.126.net/MM-AtwgUl60-kKJZnbAIzw==/109951164017421130.jpg?param=140y140",
+		"nb":"451万",
+		"index":"2"
 	},{
 		"txt":"华语民谣大合辑：一人一首代表作",
 		"txt1":"by",
-		"txt2":"辰海行",
-		"url":"http://p1.music.126.net/e28fdWUoiMH-UBPGClkG9w==/109951164034537044.jpg?param=140y140",
-		"nb":"171万"
-	},{
-		"txt":"单车·衣摆·夏凉风",
-		"txt1":"by",
-		"txt2":"欢酹 ",
-		"url":"http://p1.music.126.net/1F2xCbLRIk-e_YDkEaGRFg==/109951164053384354.jpg?param=140y140",
-		"nb":"28万"
+		"txt2":"辰海行 ",
+		"url":"http://p2.music.126.net/e28fdWUoiMH-UBPGClkG9w==/109951164034537044.jpg?param=140y140",
+		"nb":"28万",
+		"index":"1"
 	},{
 		"txt":"民谣吉他有烟有酒 深夜歌单.（个别非民谣）",
 		"txt1":"by",
 		"txt2":"晚风v5",
 		"url":"http://p1.music.126.net/0qA7DBOHfDi86wW-uru9Gw==/109951163885480810.jpg?param=140y140",
-		"nb":"551万"
+		"nb":"608万",
+		"index":"0"
 	},{
 		"txt":"仙气女嗓：梦呓惑众 予我梦幻光年",
 		"txt1":"by",
 		"txt2":"mayuko然 ",
 		"url":"http://p1.music.126.net/PqG5AFJpAH7KJy_7dCpu1A==/109951163969247965.jpg?param=140y140",
-		"nb":"338万"
+		"nb":"352万",
+		"index":"1"
 	},{
-		"txt":"忍者的时代即将结束",
+		"txt":"空灵民谣 | 游走于冰点的旷久孤寂",
 		"txt1":"by",
-		"txt2":"凉了少年梦",
-		"url":"http://p1.music.126.net/dN4nd_17dgE0GRVz_jtpuA==/109951163816130044.jpg?param=140y140",
-		"nb":"1197万"
+		"txt2":"塔希提岛的月亮",
+		"url":"http://p1.music.126.net/RKw9yIrsBsYIB1xnXTsn7Q==/109951163961013664.jpg?param=140y140",
+		"nb":"123万",
+		"index":"1"
 	},{
-		"txt":"Kawaii Bass ✿ 萌系电音 糖果鼓点",
+		"txt":"直抵心灵深处的欧美伤感女嗓",
 		"txt1":"by",
-		"txt2":"凄箩",
-		"url":"http://p1.music.126.net/tm8aFjPlcQnTLWhnnxUebw==/109951163910647823.jpg?param=140y140",
-		"nb":"33万"
+		"txt2":"一个酷爱听歌的骚年",
+		"url":"http://p1.music.126.net/7yD45byXW-yl_a5QaNUX6Q==/109951163951910995.jpg?param=140y140",
+		"nb":"347万",
+		"index":"1"
+	},{
+		"txt":"「欧美女声」温柔且风情万种",
+		"txt1":"by",
+		"txt2":"iambeiqing ",
+		"url":"http://p1.music.126.net/ZEb1Om9j8VNk7Y6q1O-9UQ==/109951163881785706.jpg?param=140y140",
+		"nb":"154万",
+		"index":"0"
 	}]
 }]

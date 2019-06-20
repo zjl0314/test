@@ -61,6 +61,7 @@ a{
 	color: #CCC;
 	text-decoration: none;
 	font-size: 14px;
+	position: relative;
 }
 
 .hot {
@@ -122,15 +123,6 @@ a{
 .register:hover {
 	text-decoration: underline;
 }
-/*.icon-xiajiantou {
-	width: 15px;
-	height: 25px;
-	display: inline-block;
-	color: #454545;
-	float: left;
-	margin-top: 4px;
-	margin-left: 9px;
-}*/
 
 .icon-shangjiantou {
 	position: absolute;
@@ -241,6 +233,18 @@ a{
 	height: 416px;
 	margin: 4px 0 0 -33px;
 }
+.cor {
+	display: block;
+	position: absolute;
+	left: 218px;
+	top: 64px;
+	width: 12px;
+	height: 7px;
+	margin: 0 auto;
+	overflow: hidden;
+	background: url(../img/topbar.png) no-repeat;
+	background-position: -226px 0;
+}
 .footer {
 	position: relative;
 	width: 100%;
@@ -248,7 +252,69 @@ a{
 	border-top: 1px solid #d3d3d3;
 	background: #f2f2f2;
 }
+#m-pl-pager{
+	width: 900px;
+	height: 26px;
+}
 
+.u-page {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.js-disabled{
+	display: block;
+	cursor: pointer;
+}
+
+.zprv{
+	width: 69px!important;
+	color: #cacaca;
+	font-size: 12px;
+    cursor: default;
+	background: url(../img/rz.png) 0 -620px;
+}
+
+.zbtn{
+	width: 24px;
+	height: 22px;
+	margin: 0 1px 0 2px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    font-size: 12px;
+    border-radius: 2px;
+    line-height: 24px;
+    vertical-align: middle;
+}
+
+.znxt{
+	width: 71px;
+	line-height: 24px;
+	font-size: 12px;
+    cursor: default;
+    color: #333;
+	background: url(../img/rz.png) -75px -560px;
+}
+
+.zbtn:hover{
+	border: 1px solid #333;
+}
+.m-back{
+	width: 49px;
+	height: 44px;
+	display: none;
+	background: url(../img/sprite.png) -265px -45px;
+	position: fixed;
+    _position: absolute;
+    text-indent: -9999px;
+    left: 50%;
+    margin-left: 500px;
+    bottom: 160px;
+}
+
+.m-back:hover {
+	background-position: -325px -47px;
+}
 .footer-z {
 	width: 980px;
 	margin: 0 auto;

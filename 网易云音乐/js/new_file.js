@@ -6,23 +6,25 @@ $.ajax({
 		/*htn*/
 		$.each(data[0].header[0], function(i, t) {
 			$(".header-top-nav-ul").append("<a href='#' class='header-top-a'><li class='header-top-li1'>" + t[0] + "</li></a>")
+			var cor=$("<sub class='cor'>&nbsp;</sub>")
+			cor.appendTo(".header-top-nav-ul>a:eq(1)")
 			for(var i = 1; i < t.length; i++) {
 				$(".header-top-nav-ul").append("<a href='#' class='header-top-a'><li class='header-top-li'>" + t[i] + "</li></a>")
 			}
 			$(".header-top-a:eq(1)").click(function(){
-				alert("该项目由于开发者懒惰，并未开发～")
+				$(".header-top-a:eq(1)").attr("href","wdyy.html")
 			})
 			$(".header-top-a:eq(2)").click(function(){
-				alert("该项目由于开发者懒惰，并未开发～")
+				$(".header-top-a:eq(2)").attr("href","py.html")
 			})
 			$(".header-top-a:eq(3)").click(function(){
 				alert("该项目由于开发者懒惰，并未开发～")
 			})
 			$(".header-top-a:eq(4)").click(function(){
-				alert("该项目由于开发者懒惰，并未开发～")
+				$(".header-top-a:eq(4)").attr("href","w_index.html")
 			})
 			$(".header-top-a:eq(5)").click(function(){
-				alert("该项目由于开发者懒惰，并未开发～")
+				$(".header-top-a:eq(5)").attr("href","down.html")
 			})
 		})
 		/*hcn*/
@@ -101,7 +103,14 @@ $("#select-li").mouseenter(function() {
 })
 $(".main-top-bg").append($("<a href='#'><div class='main-top-an' title='播放'></div></a>"))
 $(".main-center-bg").append($("<a href='#'><div class='main-center-an' title='播放'></div></a>"))
-
+$(document).scroll(function() {
+				var top = $(this).scrollTop()  
+				if(top>=50){
+					$(".m-back").css("display","block")
+				}else if(top<50){
+					$(".m-back").css("display","none")
+				}
+		})
 $(function() {
 	//			封装
 	function fenz(obj) {

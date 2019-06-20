@@ -5,27 +5,32 @@ $.ajax({
 	success: function(data) {
 		/*nav_one*/
 		$.each(data[0].header[0], function(i, t) {
-			$(".nav_one_ul").append($("<li style='background:#000000;'><a href='#' style='color:#FFFFFF;'>" + t[0] + "</a></li>"))
-			var cor = $("<sub class='cor'>&nbsp;</sub>")
-			cor.appendTo(".nav_one_ul>li")
-			for(var i = 1; i < t.length; i++) {
+//			$(".nav_one_ul").append($("<li><a href='#'>" + t[0] + "</a></li>"))
+			
+			for(var i = 0; i < t.length; i++) {
 				$(".nav_one_ul").append($("<li><a href='#'>" + t[i] + "</a></li>"))
 			}
+			var cor = $("<sub class='cor'>&nbsp;</sub>")
+			cor.appendTo(".nav_one_ul>li")
 			$(".nav_one_ul>li>a:eq(1)").click(function(){
-					alert("该项目由于开发者懒惰，并未开发～")
+					$(".nav_one_ul>li>a:eq(1)").attr("href","wdyy.html")
 			})
 			$(".nav_one_ul>li>a:eq(2)").click(function(){
-					alert("该项目由于开发者懒惰，并未开发～")
+					$(".nav_one_ul>li>a:eq(2)").attr("href","py.html")
 			})
 			$(".nav_one_ul>li>a:eq(3)").click(function(){
 					alert("该项目由于开发者懒惰，并未开发～")
 			})
 			$(".nav_one_ul>li>a:eq(4)").click(function(){
-					alert("该项目由于开发者懒惰，并未开发～")
+				$(".nav_one_ul>li>a:eq(4)").attr("href","w_index.html")
 			})
 			$(".nav_one_ul>li>a:eq(5)").click(function(){
-					alert("该项目由于开发者懒惰，并未开发～")
+					$(".nav_one_ul>li>a:eq(5)").attr("href","down.html")
 			})
+			$(".nav_one_ul>li:eq(0)").css({
+			"background": "#000",
+			"color": "#333"
+		})
 		})
 		/*nav_two*/
 		$.each(data[0].header[1], function(i, t) {
@@ -40,8 +45,8 @@ $.ajax({
 				alert("该项目由于开发者懒惰，并未开发～")
 			})
 			$(".nav_two_ul>li>a:eq(4)").attr("href", "singer.html")
+			$(".nav_two_ul>li>a:eq(2)").attr("href", "index_s.html")
 			$(".nav_two_ul>li>a:eq(5)").attr("href", "new_file.html")
-			$(".nav_two_ul>li>a:eq(2)").attr("href", "new_file.html")
 		})
 		/*banner*/
         $.each(data[0].header[2], function(i, t) {
